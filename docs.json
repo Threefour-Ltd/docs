@@ -9,7 +9,12 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": []
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": []
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
