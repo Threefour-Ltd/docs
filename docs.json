@@ -9,13 +9,7 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "anchors": [
-      {
-        "anchor": "Contact",
-        "icon": "envelope",
-        "href": "mailto:support@racemob.app"
-      }
-    ]
+    "groups": []
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -25,7 +19,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@racemob.app"
       }
     ],
     "primary": {
