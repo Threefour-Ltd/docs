@@ -3,16 +3,36 @@
   "theme": "mint",
   "name": "Racemob",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#000000",
+    "light": "#000000",
+    "dark": "#000000"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": []
+        "group": "Getting started",
+        "icon": "hand-wave",
+        "pages": [
+          "follow-a-series",
+          "supported-series"
+        ]
+      },
+      {
+        "group": "Managing your account",
+        "icon": "user",
+        "pages": [
+          "delete-your-account",
+          "cancel-your-subscription"
+        ]
+      },
+      {
+        "group": "Calendar subscription",
+        "icon": "calendar",
+        "pages": [
+          "adding-series-to-your-calendar",
+          "reset-calendar-link"
+        ]
       }
     ]
   },
@@ -44,9 +64,19 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://racemob.app"
     }
+  },
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#000000"
+    }
+  },
+  "appearance": {
+    "default": "system"
+  },
+  "fonts": {
+    "family": "Inter"
   }
 }
