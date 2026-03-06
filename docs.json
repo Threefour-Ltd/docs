@@ -23,7 +23,8 @@
         "icon": "user",
         "pages": [
           "delete-your-account",
-          "cancel-your-subscription"
+          "cancel-apple-subscription",
+          "cancel-google-subscription"
         ]
       },
       {
